@@ -1,5 +1,8 @@
 @import url(../css/fonts.css);
 @import url(../css/animation.css);
+@import url(../css/img.css);
+@import url(../css/mobile.css);
+
 body {
     background-color: black;
 }
@@ -155,6 +158,6 @@ body {
     }
 }
 
-h1 {
+body {
     font-family: 'Alegreya Sans SC', sans-serif;
 }

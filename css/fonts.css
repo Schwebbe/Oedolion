@@ -1,1 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300,400');
+
+
+p {
+    margin-top: 15px;
+}
+.intro {
+    font-size: 18.4px;
+}
