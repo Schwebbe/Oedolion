@@ -1,6 +1,6 @@
 setTimeout(function(){
-    $('.cover').removeClass('cover').fadeOut(500);
-},155000);
+    $('.cover').removeClass('cover').fadeOut(0);
+},10000000);
 
 function move() {
     var elem = document.getElementById("loadingBar");
