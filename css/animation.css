@@ -25,3 +25,9 @@
 .animation-delay-9 {
     animation-delay: 9.5s !important;
 }
+.fadeOutLeft {
+    animation-duration: 5s;
+}
+.animation-delay-10 {
+    animation-delay: 10s !important;
+}
