@@ -1,0 +1,18 @@
+.navbar-style {
+    background-color: transparent;
+    border: 0;
+}
+
+.pills {
+    
+}
+.part1, .part2, .part3, .part4 {
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+#part1 {
+    background-color: white;
+}

@@ -18,6 +18,11 @@ $(document).ready(function(){
         $("#button").fadeOut(1000);
     });
 });
+$(document).ready(function(){
+    $("#button").click(function(){
+        $(".navbar").fadeIn(10000);
+    });
+});
 //moving loading bar animation
 function move() {
     var elem = document.getElementById("loadingBar");
