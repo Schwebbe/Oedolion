@@ -1,3 +1,6 @@
+setTimeout(function(){
+    $('#button').show();// or fade, css display however you'd like.
+}, 1000);
 $(document).ready(function(){
     $("#button").click(function(){
         $(".cover").fadeOut(6000);
@@ -20,7 +23,7 @@ $(document).ready(function(){
 });
 $(document).ready(function(){
     $('#button').click(function(){ 
-        $('nav').toggleClass("animated fadeInDown animation-delay-10",function(){
+        $('nav').toggleClass("animated fadeInDown animation-delay-11",function(){
             $(this).remove();
         });
     });     
