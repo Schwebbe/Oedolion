@@ -19,9 +19,11 @@ $(document).ready(function(){
     });
 });
 $(document).ready(function(){
-    $("#button").click(function(){
-        $(".navbar").fadeIn(10000);
-    });
+    $('#button').click(function(){ 
+        $('nav').toggleClass("animated fadeInDown animation-delay-10",function(){
+            $(this).remove();
+        });
+    });     
 });
 //moving loading bar animation
 function move() {

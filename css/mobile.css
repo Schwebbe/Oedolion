@@ -17,4 +17,11 @@
     .mb-text {
         margin-top: -160px;
     }
+    .glyphpos {
+        margin-top: 30px;
+        left: 47%;
+        position: absolute;
+        bottom: 0px;
+        font-size: 30px; 
+    }
 }

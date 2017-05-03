@@ -4,6 +4,7 @@
 @import url(../css/mobile.css);
 @import url(../css/button.css);
 @import url(../css/navbar.css);
+@import url(../font-awesome-4.7.0/css/font-awesome.min.css);
 body {
     background-color: black;
     font-family: 'Alegreya Sans SC', sans-serif;
@@ -145,6 +146,9 @@ body {
     background-color: transparent !important;
 }
 .glyphpos {
-    bottom: 0;
+    left: 47%;
+    position: absolute;
+    bottom: 0px;
     font-size: 30px; 
+    margin-bottom: 25px;
 }
