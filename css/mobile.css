@@ -1,13 +1,12 @@
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) , screen and (max-height: 700px){
     .seconds {
         width: 90% !important;
-        top: -80px !important;
+        top: -150px !important;
     }
     .headphones {
         margin-top: 90px;
     }
     .headphone-sq {
-        margin-top: 150px !important;
         border-width: 2px;
         border-style: solid;
         border-radius: 50%;
@@ -24,4 +23,5 @@
         bottom: 0px;
         font-size: 30px; 
     }
+      
 }
