@@ -13,7 +13,7 @@ setTimeout(function timer() {
 }, 1000);
 
 function PercentageAnimator() {
-    this.animationSpeed = 78;
+    this.animationSpeed = 79;
     this.curPercentage = 0;
     this.targetPercentage = 0;
     this.outputSelector = ".countPercentage";
