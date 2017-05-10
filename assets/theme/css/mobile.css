@@ -1,0 +1,30 @@
+@media screen and (max-width: 768px) {
+    .seconds {
+        max-width: 90% !important;
+        
+    }
+    .navbutton {
+        color: #FFF;
+        background: transparent;
+        margin: 25px;
+        font-size: 14px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        width: 100%;
+        border-radius: 2px;
+        display: inline-block;
+        text-align: center !important;
+        cursor: pointer;
+        box-shadow: inset 0 0 0 0 #ff4d4d;
+        -webkit-transition: all ease 0.8s;
+        -moz-transition: all ease 0.8s;
+        transition: all ease 0.8s;
+    }
+    .navbutton:hover {
+        box-shadow: inset 300px 0 0 0 #ff4d4d !important;
+        color: black;
+    }
+    .mrgnUp {
+        margin-top: -50px;
+    }
+}
