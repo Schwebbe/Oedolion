@@ -3252,6 +3252,12 @@ html.is-builder .article .lead:not([data-app-remove-it])+div .btn {
 .up {
     
 }
+.jumbomrgn {
+    margin-top: 180px;
+}
+.btnmrgn {
+    margin-top: -180px;
+}
 #container {
     margin: 20px;
     width: 200px;

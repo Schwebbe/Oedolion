@@ -27,4 +27,12 @@
     .mrgnUp {
         margin-top: -50px;
     }
+    .jumbomrgn {
+        margin-top: 100px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .btnmrgn {
+        margin-top: -180px;
+    }
 }
