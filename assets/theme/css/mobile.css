@@ -31,8 +31,9 @@
         margin-top: 100px;
     }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-height: 770px) {
     .btnmrgn {
         margin-top: -180px;
     }
+    
 }
