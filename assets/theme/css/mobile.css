@@ -3,6 +3,9 @@
         max-width: 90% !important;
         
     }
+    .mbr-section-title {
+        font-size: 34px;
+    }
     .navbutton {
         color: #FFF;
         background: transparent;

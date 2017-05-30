@@ -1,6 +1,14 @@
+$(document).ready(function(){
+    $(this).scrollTop(0);
+});
+/* BOOTSTRAP SLIDEDOWN */
+$('.dropdown').on('show.bs.dropdown', function(e){
+    $(this).find('.dropdown-submenu').first().stop(true, true).slideDown(300);
+});
 
-
-
+$('.dropdown').on('hide.bs.dropdown', function(e){
+    $(this).find('.dropdown-menu').first().stop(true, true).slideUp(200);
+});
 setTimeout(function(){
     $('#button').show();// or fade, css display however you'd like.
 }, 1000);
@@ -12,6 +20,11 @@ $(document).ready(function(){
 $(document).ready(function(){
     $("#button").click(function(){
         $(".stars").fadeIn(8000);
+    });
+});
+$(document).ready(function(){
+    $("#button").click(function(){
+        $("#cookie").fadeIn(8000);
     });
 });
 $(document).ready(function(){
@@ -63,6 +76,7 @@ function initMap() {
         map: map
     });
 }
+
 //GOOGLE MAPS
 
 //moving loading bar animation
